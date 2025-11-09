@@ -1,0 +1,5 @@
+# simple smoke test instructions
+# Run after installing package:
+# project -> create_table users name:str age:int is_active:bool
+# project -> insert into users values ("Sergei", 28, true)
+# project -> select from users

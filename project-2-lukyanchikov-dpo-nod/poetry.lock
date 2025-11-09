@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "project-2-lukyanchikov-dpo-nod"
+version = "0.1.0"
+description = ""
+authors = ["vgl3000@gmail.com"]
+
+# Указываем, что исходники лежат в src/
+packages = [{ include = "primitive_db", from = "src" }]
+
+[tool.poetry.scripts]
+db = "primitive_db.main:cli"
+
